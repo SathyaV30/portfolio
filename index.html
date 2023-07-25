@@ -256,7 +256,7 @@
         <h3 style="font-size: 24px;">Information</h3>
        <p style = "margin-top: 5px;"><i class="fa-solid fa-location-dot"> </i> Pleasanton, California</p>
        <a style ="text-decoration: none; margin-top: 5px;" href="mailto: sathya.venugopal2003@gmail.com@gmail.com" target="_blank"><i class="fa-solid fa-envelope" aria-hidden="true"></i> sathya.venugopal2003@gmail.com</a>
-       <a style = "margin-top:20px; text-decoration: none;" href = "https://drive.google.com/file/d/12tdgTjVfSn3KfC4Ltsnyva1awY0fB0Dn/view?usp=sharing" target="_blank"><i class="fa-regular fa-file-lines" aria-hidden="true"></i> Resume</a>
+       <a style = "margin-top:20px; text-decoration: none; white-space: nowrap;" href = "https://drive.google.com/file/d/12tdgTjVfSn3KfC4Ltsnyva1awY0fB0Dn/view?usp=sharing" target="_blank"><i class="fa-regular fa-file-lines" aria-hidden="true"></i> Resume</a>
       </div>
 
 
@@ -271,7 +271,6 @@
   </body>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
-    // simulate a click on the "Education" tab
     openTab({ currentTarget: document.querySelector('.tablinks[data-tab="Education"]') }, "Education");
 });
 
@@ -280,18 +279,14 @@
             const preloader = document.getElementById('preloader');
             preloader.style.opacity = "0";
             preloader.style.visibility = "hidden";
-            document.body.style.overflow = "auto"; // enable scrolling
-            document.body.style.opacity = "1"; // display body content
-    
-            // start the typing animations
+            document.body.style.overflow = "auto";
+            document.body.style.opacity = "1"; 
             setTimeout(typeH, 500);
             setTimeout(typeP, 2500);
-            
-            // reveal other elements
             setTimeout(revealListItems, 7000);
             setTimeout(revealContainer, 7500);
             setTimeout(revealOuterP, 7500);
-        }, 1400); // delay of 2 seconds
+        }, 1400);
     }
     
     const typedTextH = "Hello, i'm Sathya...";
