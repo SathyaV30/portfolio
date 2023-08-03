@@ -52,7 +52,15 @@
   100% { transform: rotate(360deg); }
 }
 
+.img-logo {
+  max-width: 200px; 
+  max-height: 200px; 
+}
 
+.img-logo:hover {
+  background-color: #c2c2c2;
+
+}
 body {
   overflow: hidden;
   margin: 0;
