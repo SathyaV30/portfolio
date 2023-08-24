@@ -276,7 +276,7 @@ body {
     padding-bottom: 4.6875rem;
   }
  .project {
-    width: calc(33.33% - 1.25rem);
+    width: calc(28.4% - 5rem);
     background: rgba(0, 0, 0, 0.4);
     padding: 2.5rem;
     text-align: center;
@@ -398,7 +398,7 @@ body {
   }
   .project-img {
     max-width: 100%;
-  
+
     height: auto;
   }
   .end {
@@ -430,6 +430,16 @@ body {
     opacity: 1;
     animation: blink-animation 1s infinite;
 }
+.triple-image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-triple {
+  width: 33%;
+  box-sizing: border-box; /* This ensures that any padding or border won't affect the width */
+}
+
 
 @keyframes blink-animation {
     0% {
