@@ -276,7 +276,7 @@ body {
     padding-bottom: 4.6875rem;
   }
  .project {
-    width: calc(28.4% - 5rem);
+    width: calc(35%);
     background: rgba(0, 0, 0, 0.4);
     padding: 2.5rem;
     text-align: center;
