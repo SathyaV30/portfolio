@@ -402,7 +402,7 @@ body {
     height: auto;
   }
   .end {
-    height:13.75rem;
+    height:100%;
     width:100%;
     background: rgba(0, 0, 0, 0.4);
     display: flex;
@@ -416,7 +416,7 @@ body {
     justify-content: start;
     place-items: center;
     background-color:rgba(0, 0, 0, 0.4);
-    overflow: hidden;
+    height: fit-content;
   }
   .up {
     justify-content: start;
