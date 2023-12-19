@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
   <head>
     <meta charset="utf-8">
     <script src="https://kit.fontawesome.com/963704ede8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="img&resume/SV.png">
     <title>Sathya Venugopal</title>
-    
+  </head>
   <body id ="bd" onload="document.getElementById('defaultOpen').click()">
       <div id="preloader">
-        <img src="img&resume/SV.png" alt="SV" id="logo" />
+        <img src="img&resume/SV.png" alt="SV" id="logo">
         <div id="animated-wheel"></div>
       </div>
 
@@ -18,23 +18,22 @@
       <a class ="nav-link nav-link-ltr" href="index.html">Home</a>
       <a class ="nav-link nav-link-ltr" onClick="document.getElementById('project-sec').scrollIntoView({ behavior: 'smooth', block: 'start' });"> Projects</a>
       <a class ="nav-link nav-link-ltr" href="https://drive.google.com/file/d/1hWlQOkOhQE77s96ckIwlXv6WD_TaTNGW/view?usp=sharing" target = "blank">Resume</a>
-      <a class ="nav-link nav-link-ltr" href="mailto: sathya.venugopal2003@gmail.com" target="_blank">Contact</a>
+      <a class ="nav-link nav-link-ltr" href="mailto:sathya.venugopal2003@gmail.com" target="_blank">Contact</a>
     </nav>
 
     <div class="box">
-      <h1 style ="font-size:6ch"></h1>
-      <h5></h5>
+      <h1></h1>
       <p></p>
       
         <ul>
           <li><a href="https://www.linkedin.com/in/sathya-venugopal30/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
           <li><a href="https://github.com/SathyaV30" target ="_blank"><i class="fab fa-github" aria-hidden="true"></i></a></li>
-          <li><a href="mailto: sathya.venugopal2003@gmail.com" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i></a></li>
+          <li><a href="mailto:sathya.venugopal2003@gmail.com" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i></a></li>
         </ul>
         
     
     </div>
-    <div>
+      <div class ="languages-wrapper">
     <section id="languages">
         <div class="container">
           <div class="row">
@@ -42,8 +41,8 @@
             <div class="tab">
               <button class="tablinks" id="defaultOpen" onclick="openTab(event, 'Education')">Education</button>
               <button class="tablinks" onclick="openTab(event, 'Experience')">Experience</button>
-              <button class="tablinks" onclick="openTab(event, 'Skills Summary')">Skills</button>
-              <button class="tablinks" onclick="openTab(event, 'Honors & Awards')">Honors & Awards</button>
+              <button class="tablinks" onclick="openTab(event, 'Skills_Summary')">Skills</button>
+              <button class="tablinks" onclick="openTab(event, 'Honors_Awards')">Honors & Awards</button>
             </div>
             <div id="Education" class="tabcontent">
               <div class = "e-tab">
@@ -51,27 +50,25 @@
                   <a href="https://ucsd.edu/" target="_blank" style="display: flex; justify-content: center; align-items: center; cursor: pointer;">
                     <img src="img&resume/UCSD-Logo.png" alt="UCSD logo" style="max-width: 75%; height: auto;">
                   </a>
+                  
                 </div>
-                
               
-              <div style ="max-width: 50%; min-width: 50%;">
-                <ul style="list-style-type: none; margin-top: 5%; font-size: medium;">
-                  <li style="margin-bottom: 10px;">Bachelor of Science in Computer Engineering</li>
-                  <li style="margin-bottom: 10px;"> GPA: 3.6</li>
-                  <li style="margin-bottom: 10px;"> Sept 2021 - Jun 2025</li>
-                  <li>Relevant Coursework: </li>
-                  <ul style="margin-top: 10px; margin-left: 20px;">
-                    <li style="margin-bottom: 10px;">Design and Analysis of Algorithms</li>
-                    <li style="margin-bottom: 10px;">Advanced Data Structures (C++)</li>
-                    <li style="margin-bottom: 10px;">Computer Organization and Systems Programming (C/ARM)</li>
-                    <li style="margin-bottom: 10px;">Introduction to Programming and Computational Problem-Solving (Java)</li>
-                    <li style="margin-bottom: 10px;">Basic Data Structures and Object-Oriented Design (Java)</li>
-                    <li style="margin-bottom: 10px;">Web Client Launguages (HTML/CSS/JS)</li>
-                    <li style="margin-bottom: 10px;">Web Mining and Recommender Systems (Python)</li>
-                    <li style="margin-bottom: 10px;">Software Tools and Techniques Laboratory (Git)</li>
+                <div style ="max-width: 50%; min-width: 50%;">
+                  <ul >
+                    <li >Bachelor of Science in Computer Engineering</li>
+                    <li > GPA: 3.6</li>
+                    <li> Sept 2021 - Jun 2025</li>
+                      <li >Design and Analysis of Algorithms</li>
+                      <li>Advanced Data Structures (C++)</li>
+                      <li >Computer Organization and Systems Programming (C/ARM)</li>
+                      <li >Introduction to Programming and Computational Problem-Solving (Java)</li>
+                      <li >Basic Data Structures and Object-Oriented Design (Java)</li>
+                      <li >Web Client Launguages (HTML/CSS/JS)</li>
+                      <li >Web Mining and Recommender Systems (Python)</li>
+                      <li >Software Tools and Techniques Laboratory (Git)</li>
                   </ul>
-                </ul>
-              </div>
+                </div>
+              
             </div>
           </div>
             
@@ -81,76 +78,76 @@
             <div style="display:flex; justify-content: center; align-items: flex-start;">
                 <div style="min-width: 40%;max-width: 40%;margin-right: 5%;">
                     <div style="margin-top: 3%; display: flex; flex-direction: column; align-items: center;">
-                        <a href="https://myxcredit.com" target="_blank" style ="text-decoration: none;"><h1 style = "margin: 3px; font-size: 30px;">XCredit</h1></a>
+                        <a href="https://myxcredit.com" target="_blank" style ="text-decoration: none;"><h1 >XCredit</h1></a>
                         <h3>Software Engineering Intern (Jul 2022 - Sept 2022)</h3>
-                        <ul style="margin-bottom: 5px; text-align: left; font-size: 17px;" >
-                          <li style = "margin-bottom: 3%;">Developed a credit scoring system boosting scores via social payments.</li>
-                          <li style = "margin-bottom: 3%;">Boosted team efficiency by 15% with innovative ideas in weekly meetings.</li>
-                          <li style = "margin-bottom: 3%;">Leveraged 100+ fintech data points to optimize a credit scoring algorithm.</li>
-                          <li style = "margin-bottom: 3%;">Used MERN stack to develop a P2P payments platform.</li>
-                          <li style = "margin-bottom: 3%;">Collaborated to launch a mobile app with 400 monthly users, totaling $57K payment volume.</li>
+                        <ul  >
+                          <li>Developed a credit scoring system boosting scores via social payments.</li>
+                          <li>Boosted team efficiency by 15% with innovative ideas in weekly meetings.</li>
+                          <li >Leveraged 100+ fintech data points to optimize a credit scoring algorithm.</li>
+                          <li >Used MERN stack to develop a P2P payments platform.</li>
+                          <li >Collaborated to launch a mobile app with 400 monthly users, totaling $57K payment volume.</li>
                           
                         </ul>
                     </div>
                 </div>
                 <div style="min-width: 40%;max-width: 40%;">
                     <div style="margin-top: 3%; display: flex; flex-direction: column; align-items: center;">
-                      <a href="https://happyacademy.us" target="_blank" style ="text-decoration: none;"><h1 style = "margin: 3px; font-size: 30px;">Happy Academy</h1></a>
+                      <a href="https://happyacademy.us" target="_blank" style ="text-decoration: none;"><h1>Happy Academy</h1></a>
                         <h3>Mathematics and Computer Science Tutor (Oct 2022 - Present)</h3>
-                        <ul style="margin-bottom: 5px; text-align: left; font-size: 17px;">
-                            <li style = "margin-bottom: 3%;">Tutored high school students in AP Computer Science, Calculus, and Physics.</li>
-                            <li style = "margin-bottom: 3%;">Conducted engaging small group classes weekly.</li>
-                            <li style = "margin-bottom: 3%;">Assessed student performance and maintained records.</li>
-                            <li style = "margin-bottom: 3%;">Fostered a positive learning environment.</li>
-                            <li style = "margin-bottom: 3%;">Developed innovative teaching strategies for complex concepts.</li>
+                        <ul >
+                            <li >Tutored high school students in AP Computer Science, Calculus, and Physics.</li>
+                            <li >Conducted engaging small group classes weekly.</li>
+                            <li >Assessed student performance and maintained records.</li>
+                            <li >Fostered a positive learning environment.</li>
+                            <li >Developed innovative teaching strategies for complex concepts.</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
         
-            <div id = "Skills Summary" class ="tabcontent">
+            <div id ="Skills_Summary" class ="tabcontent">
             <div class="language__list">
               <div class="language">
                 <figure class="language__img--wrapper">
                   <img
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
-                    alt="Html Logo" class="language__img" />
+                    alt="Html Logo" class="language__img">
                 </figure>
                 <span class="language__name">HTML</span>
               </div>
               <div class="language">
                 <figure class="language__img--wrapper">
                   <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="CSS Logo"
-                    class="language__img" />
+                    class="language__img" >
                 </figure>
                 <span class="language__name">CSS</span>
               </div>
               <div class="language">
                 <figure class="language__img--wrapper">
                   <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="JavaScript Logo"
-                    class="language__img" />
+                    class="language__img" >
                 </figure>
                 <span class="language__name">JavaScript</span>
               </div>
               <div class="language">
                 <figure class="language__img--wrapper">
                   <img src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png"
-                    alt="TypeScript Logo" class="language__img" />
+                    alt="TypeScript Logo" class="language__img" >
                 </figure>
                 <span class="language__name">TypeScript</span>
               </div>
               <div class="language">
                 <figure class="language__img--wrapper">
                   <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" alt="React Logo"
-                    class="language__img" />
+                    class="language__img" >
                 </figure>
                 <span class="language__name">React</span>
               </div>
               <div class="language">
                 <figure class="language__img--wrapper">
                   <img src="https://cdn.iconscout.com/icon/free/png-512/free-python-2-226051.png?f=avif&w=512"
-                    alt="Python Logo" class="language__img" />
+                    alt="Python Logo" class="language__img" >
                 </figure>
                 <span class="language__name">Python</span>
               </div>
@@ -159,7 +156,7 @@
               <div class="language">
                 <figure class="language__img--wrapper">
                   <img src="https://cdn.iconscout.com/icon/free/png-512/free-c-4-226082.png?f=avif&w=512" alt="C++ Logo"
-                    class="language__img" />
+                    class="language__img" >
                 </figure>
                 <span class="language__name">C++</span>
               </div>
@@ -167,17 +164,17 @@
               <div class="language">
                 <figure class="language__img--wrapper">
                   <img src="https://cdn.iconscout.com/icon/free/png-256/java-2038875-1720088.png" alt="Java Logo"
-                    class="language__img" />
+                    class="language__img" >
                 </figure>
                 <span class="language__name">Java</span>
               </div>
              
             </div>
           </div>
-          <div id = "Honors & Awards" class = "tabcontent">
-            <div style = "display:flex; justify-content: center; align-items: center;">
-              <div style = "min-width: 50%;max-width: 50%;">
-                <div style = "margin-top: 2%;">
+          <div id ="Honors_Awards" class = "tabcontent">
+            <div style ="display:flex; justify-content: center; align-items: center;">
+              <div style ="min-width: 50%;max-width: 50%;">
+                <div style ="margin-top: 2%;">
                   <a href="https://www.scouting.org/" target="_blank" style="display: flex; justify-content: center; align-items: center; cursor: pointer;">
                     <img src="img&resume/BSA.png" alt="BSA logo" style="max-width: 45%; height: 80%;">
                   </a>
@@ -185,7 +182,7 @@
               </div>
 
               <div style="min-width: 50%; max-width: 50%;">
-                <span style="font-size: 20px; line-height: 1.5;">Achievement of the Eagle Scout Rank in the Boy Scouts of America program, a distinction earned by only 4% of scouts.</span>
+                <span>Achievement of the Eagle Scout Rank in the Boy Scouts of America program, a distinction earned by only 4% of scouts.</span>
               </div>
               
             </div>
@@ -193,7 +190,7 @@
           </div>
         </div>
       </section>
-      
+    </div>
    
       <div class = "outer-p" id ="project-sec">
         <div class = "projects-header"> 
@@ -204,7 +201,7 @@
        
         <div class="project">
             <h3>NBA Stats App</h3>
-            <img src = "./img&resume/nba-stats.png" class = "project-img">
+            <img src = "./img&resume/nba-stats.png" class = "project-img" alt = "nba-stats project image">
             <p>An interactive web application that showcases statistics for both current and former NBA players. It includes features such as the ability to add favorite players, compare players, generate random players, and view a detailed player profile. It also features user authentication and the ability to follow other users, make posts, and earn virtual coins.
               <span style="display: flex; flex-direction: column;">
                   For demo account, 
@@ -215,13 +212,13 @@
           
             <p>Technologies used: HTML/CSS, React, Node.js, Express.js, MongoDB, JWT and Bcrypt for user authentication, and Fetch API.</p>
             <div style="display: flex;flex-direction: row; justify-content: center;">
-             <a href="https://nba-player-stats.netlify.app" target = "_blank" style="margin-right: 30px;"><i class="fa fa-external-link-alt" ></i></a></li>
-             <a href="https://github.com/SathyaV30/nba-player-stats" target = "_blank" style="margin-right: 30px;"><i class="fa-brands fa-github"></i></a></li>
+             <a href="https://nba-player-stats.netlify.app" target = "_blank" style="margin-right: 30px;"><i class="fa fa-external-link-alt" ></i></a>
+             <a href="https://github.com/SathyaV30/nba-player-stats" target = "_blank" style="margin-right: 30px;"><i class="fa-brands fa-github"></i></a>
               </div>
         </div>
         <div class="project">
           <h3>Word Game</h3>
-          <img src = "./img&resume/WT.png" class = "project-img">
+          <img src = "./img&resume/WT.png" class = "project-img" alt = "Word Twirl project image">
   
           <p>
             A captivating mobile game designed for word game enthusiasts: an enhanced version of the classic <a href="https://en.wikipedia.org/wiki/Boggle" target = "_blank">Boggle</a> game. This app allows players to choose from diverse board configurations, unlock intricate themes, and select their preferred game time limit. After each game, players are presented with all potential words, along with their definitions. The use of a trie data structure ensures efficient and precise word searches.
@@ -229,40 +226,39 @@
           <p>Technologies Used: React Native, Free Dictionary API, Expo CLI</p>
          
           <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
-            <div style = "display: flex; flex-direction: column; justify-content: center; align-items: center; margin-right: 30px;">
+            <div style = "display: flex; flex-direction: column; justify-content: center; align-items: center;">
             <a href='https://apps.apple.com/us/app/word-twirl/id6468644109' target="_blank" style ="margin-bottom: 10px;" >
-              <img alt='Get it on the App Store' src='img&resume/app-store.webp' width="150"/>
+              <img alt='Get it on the App Store' src='img&resume/app-store.webp' class ="app-store-img">
             </a>
             <a href='https://play.google.com/store/apps/details?id=com.sathyav30.Word_Twirl&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank" >
-              <img alt='Get it on Google Play' src='img&resume/google-play.png' width="150"  />
+              <img alt='Get it on Google Play' src='img&resume/google-play.png' class ="app-store-img">
             </a>
             </div>
             <a href="https://github.com/SathyaV30/Word_Twirl" target="_blank">
                 <i class="fa-brands fa-github"></i>
             </a>
         </div>
-        
-        
-      
       </div>
+
+
     <div class = "projects">
 
     <div class="project">
       <h3>Random Color Generator</h3>
-      <img src = "./img&resume/rcg.png" class = "project-img">
+      <img src = "./img&resume/rcg.png" class = "project-img" alt = "random color generator project image">
       <p>A user-friendly web app was created that generates random colors as requested by the user. The app features a visual representation of the generated color, along with its hexadecimal value and a descriptive name in English. Also allows users to filter colors by saturation or brightness level.</p>
       <p>Technologies used: JavaScript, HTML, CSS</p>
       <div style="display: flex;flex-direction: row; justify-content: center;">
-      <a href ="https://rand-color-generator101.netlify.app" target = "_blank" style="margin-right: 30px;"><i class="fa fa-external-link-alt"></i></a></li>
-      <a href="https://github.com/SathyaV30/random-color-generator" target = "_blank"><i class="fa-brands fa-github"></i></a></li>
+      <a href ="https://rand-color-generator101.netlify.app" target = "_blank" style="margin-right: 30px;"><i class="fa fa-external-link-alt"></i></a>
+      <a href="https://github.com/SathyaV30/random-color-generator" target = "_blank"><i class="fa-brands fa-github"></i></a>
     </div>
 </div>
     <div class="project">
         <h3>Book Recommender App</h3>
         <div class = 'triple-image'>
-          <img src = "./img&resume/BB1.PNG" class = "img-triple">
-          <img src = "./img&resume/BB2.PNG" class = "img-triple">
-          <img src = "./img&resume/BB3.PNG" class = "img-triple">
+          <img src = "./img&resume/BB1.PNG" class = "img-triple" alt ="book app image 1">
+          <img src = "./img&resume/BB2.PNG" class = "img-triple" alt ="book app image 2">
+          <img src = "./img&resume/BB3.PNG" class = "img-triple" alt ="book app image 3">
 
         </div>
 
@@ -276,59 +272,57 @@
         <p>Technologies Used: HTML/CSS, React Native, Node.js, Express.js, MongoDB, Expo CLI, JWT and Bcrypt for user authentication.</p>
        
         <div style="display: flex;flex-direction: row; justify-content: center;">
-        <a href ="https://docs.google.com/document/d/1mLe3091Mw6b4JHRD-Ff26xHzC_Sy4byvxxcxf9oc1mE/edit" target = "_blank" style="margin-right: 30px;"><i class="fa fa-external-link-alt"></i></a></li>
-        <a href="https://github.com/SathyaV30/BookBrilliance" target = "_blank"><i class="fa-brands fa-github"></i></a></li>
+        <a href ="https://docs.google.com/document/d/1mLe3091Mw6b4JHRD-Ff26xHzC_Sy4byvxxcxf9oc1mE/edit" target = "_blank" style="margin-right: 30px;"><i class="fa fa-external-link-alt"></i></a>
+        <a href="https://github.com/SathyaV30/BookBrilliance" target = "_blank"><i class="fa-brands fa-github"></i></a>
       </div>
     
     </div>
-</div>
-
-      <div class ="end">
-
-
-      <div class ="up">
-        
-         <a onClick="document.getElementById('bd').scrollIntoView({ behavior: 'smooth', block: 'start' })" class ="tp"> <img class = "img-logo" src="img&resume/SV.png" alt="SV" id="logo" /> </a></a>
-
-      </div>
-
-      <div class= "proj">
-        <h3 style="font-size: 24px;">Projects</h3>
-    
-        <a style ="text-decoration: none;
-                    margin-bottom: 30px;" href="https://nba-player-stats.netlify.app" target =" _blank" >NBA Stats App</a>
-        <a style ="text-decoration: none;
-                    margin-bottom: 30px;" href ="https://rand-color-generator101.netlify.app" target = "_blank">Random Color Generator</a>
-        <a style ="text-decoration: none;
-                    margin-bottom: 30px;"href ="https://github.com/SathyaV30/Word_Twirl" target = "_blank">Word Game</a>
-        <a style ="text-decoration: none;
-                      margin-bottom: 30px;" href ="https://tinyurl.com/bookappsv30" target = "_blank">Book Recommender App</a>
-   
-</div>
-      <div class ="prof">
-        <h3 style="font-size: 24px;">Profiles</h3>
-        <a style ="margin-bottom: 30px;" href ="https://www.linkedin.com/in/sathya-venugopal30/" target="_blank"><i class="fa-brands fa-linkedin fa-3x" aria-hidden="true"></i></a>
-        <a style ="margin-bottom: 30px" href= "https://github.com/SathyaV30" target ="_blank"><i class="fa-brands fa-github fa-3x" aria-hidden="true"></i></a>
-      </div>
-
-
-      <div class ="info">
-        <h3 style="font-size: 24px;">Information</h3>
-       <p style = "margin-top: 5px;"><i class="fa-solid fa-location-dot"> </i> Pleasanton, California</p>
-       <a style ="text-decoration: none; margin-top: 5px; white-space: nowrap" href="mailto: sathya.venugopal2003@gmail.com@gmail.com" target="_blank"><i class="fa-solid fa-envelope" aria-hidden="true"></i> sathya.venugopal2003@gmail.com</a>
-       <a style = "margin-top:20px; text-decoration: none; white-space: nowrap;" href = "https://drive.google.com/file/d/1hWlQOkOhQE77s96ckIwlXv6WD_TaTNGW/view?usp=sharing" target="_blank"><i class="fa-regular fa-file-lines" aria-hidden="true"></i> Resume</a>
-      </div>
-
-
-
-
-
     </div>
 
+    
+
+
+  
+  
+  </div>
+</div>
+
+<footer class ="end">
+
+  <div class ="up">
+    
+     <a onClick="document.getElementById('bd').scrollIntoView({ behavior: 'smooth', block: 'start' })" class ="tp"> <img class = "img-logo" src="img&resume/SV.png" alt="SV" > </a>
 
   </div>
 
-  </body>
+  <div class= "proj">
+    <h3>Projects</h3>
+
+    <a  href="https://nba-player-stats.netlify.app" target =" _blank" >NBA Stats App</a>
+    <a  href ="https://rand-color-generator101.netlify.app" target = "_blank">Random Color Generator</a>
+    <a  href ="https://github.com/SathyaV30/Word_Twirl" target = "_blank">Word Game</a>
+    <a  href ="https://tinyurl.com/bookappsv30" target = "_blank">Book Recommender App</a>
+
+</div>
+  <div class ="prof">
+    <h3>Profiles</h3>
+    <a href ="https://www.linkedin.com/in/sathya-venugopal30/" target="_blank"><i class="fa-brands fa-linkedin fa-3x" aria-hidden="true"></i></a>
+    <a href= "https://github.com/SathyaV30" target ="_blank"><i class="fa-brands fa-github fa-3x" aria-hidden="true"></i></a>
+  </div>
+
+
+  <div class ="info">
+    <h3>Information</h3>
+   <a href ="https://maps.app.goo.gl/FAbDtPTL44MEFnT19" target = "_blank"><i class="fa-solid fa-location-dot"> </i> Pleasanton, California</a>
+   <a href="mailto:sathya.venugopal2003@gmail.com@gmail.com" target="_blank"><i class="fa-solid fa-envelope" aria-hidden="true"></i> sathya.venugopal2003@gmail.com</a>
+   <a href = "https://drive.google.com/file/d/1hWlQOkOhQE77s96ckIwlXv6WD_TaTNGW/view?usp=sharing" target="_blank"><i class="fa-regular fa-file-lines" aria-hidden="true"></i> Resume</a>
+  </div>
+
+
+
+
+
+</footer>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
     openTab({ currentTarget: document.querySelector('.tablinks[data-tab="Education"]') }, "Education");
@@ -437,7 +431,7 @@
   evt.currentTarget.className += " active";
 }
     </script>
-    
-  
-</head>
+
+     </body> 
+
 </html>

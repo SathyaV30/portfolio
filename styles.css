@@ -33,7 +33,9 @@
   height: 18.75rem;
   position: relative;
 }
-
+.app-store-img {
+  width: 50%;
+}
 #logo::after {
   content: "";
   position: absolute;
@@ -61,6 +63,7 @@
   background-color: #c2c2c2;
 
 }
+
 body {
   overflow: hidden;
   margin: 0;
@@ -82,7 +85,7 @@ body {
     text-align: center;
     margin: auto;
     color: white;
-    height: 21.25rem;
+    min-height: 21.25rem;
     position: relative;
   }
 
@@ -90,9 +93,6 @@ body {
     font-size: 1.5625rem;
   }
 
-  .box h1 {
-    font-size: large;
-  }
 
   @keyframes fadeInAnimation {
     0% {
@@ -108,7 +108,7 @@ body {
     height: 12.5rem;
   }
   .box h1{
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 100;
   }
   .box h5{
@@ -216,6 +216,7 @@ body {
   .language__img {
     width: 100%;
     max-width: 6.25rem;
+    min-width: 3.25rem;
     transition: all 300ms;
     object-fit: cover;
   }
@@ -332,6 +333,10 @@ body {
   .fa {
     font-size: 3.125rem;
   }
+  li {
+    line-height: 1.5;
+  }
+  
   .tab {
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.4);
@@ -437,9 +442,13 @@ body {
 
 .img-triple {
   width: 33%;
-  box-sizing: border-box; /* This ensures that any padding or border won't affect the width */
+  box-sizing: border-box; 
 }
-
+footer a {
+  line-height: 2;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
 
 @keyframes blink-animation {
     0% {
@@ -457,3 +466,30 @@ body {
     color:white;
     font-weight: 100;
 }  
+
+@media (min-width: 481px) {
+  html {
+    font-size: 8px;
+  }
+  
+}
+
+@media (min-width: 769px) {
+  html {
+    font-size: 12px;
+  }
+ 
+}
+
+@media (min-width: 1025px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 20px;
+  }
+}
