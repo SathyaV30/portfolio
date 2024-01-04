@@ -337,6 +337,11 @@ body {
     line-height: 1.5;
   }
   
+  .icon-links {
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+  }
   .tab {
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.4);
