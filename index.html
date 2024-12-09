@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="img&resume/SV.png">
     <title>Sathya Venugopal</title>
   </head>
-  <body id ="bd" onload="document.getElementById('defaultOpen').click()">
+  <body id="bd" onload="document.getElementById('defaultOpen').click()">
       <div id="preloader">
         <img src="img&resume/SV.png" alt="SV" id="logo">
         <div id="animated-wheel"></div>
@@ -39,11 +39,78 @@
           <div class="row">
         
             <div class="tab">
-              <button class="tablinks" id="defaultOpen" onclick="openTab(event, 'Education')">Education</button>
+              <button class="tablinks" id="defaultOpen" onclick="openTab(event, 'Skills_Summary')">Skills</button>
+              <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
               <button class="tablinks" onclick="openTab(event, 'Experience')">Experience</button>
-              <button class="tablinks" onclick="openTab(event, 'Skills_Summary')">Skills</button>
               <button class="tablinks" onclick="openTab(event, 'Honors_Awards')">Honors & Awards</button>
             </div>
+
+            <div id ="Skills_Summary" class ="tabcontent">
+              <div class="language__list">
+                <div class="language">
+                  <figure class="language__img--wrapper">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                      alt="Html Logo" class="language__img">
+                  </figure>
+                  <span class="language__name">HTML</span>
+                </div>
+                <div class="language">
+                  <figure class="language__img--wrapper">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="CSS Logo"
+                      class="language__img" >
+                  </figure>
+                  <span class="language__name">CSS</span>
+                </div>
+                <div class="language">
+                  <figure class="language__img--wrapper">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="JavaScript Logo"
+                      class="language__img" >
+                  </figure>
+                  <span class="language__name">JavaScript</span>
+                </div>
+                <div class="language">
+                  <figure class="language__img--wrapper">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png"
+                      alt="TypeScript Logo" class="language__img" >
+                  </figure>
+                  <span class="language__name">TypeScript</span>
+                </div>
+                <div class="language">
+                  <figure class="language__img--wrapper">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" alt="React Logo"
+                      class="language__img" >
+                  </figure>
+                  <span class="language__name">React</span>
+                </div>
+                <div class="language">
+                  <figure class="language__img--wrapper">
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-python-2-226051.png?f=avif&w=512"
+                      alt="Python Logo" class="language__img" >
+                  </figure>
+                  <span class="language__name">Python</span>
+                </div>
+                
+  
+                <div class="language">
+                  <figure class="language__img--wrapper">
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-c-4-226082.png?f=avif&w=512" alt="C++ Logo"
+                      class="language__img" >
+                  </figure>
+                  <span class="language__name">C++</span>
+                </div>
+  
+                <div class="language">
+                  <figure class="language__img--wrapper">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/java-2038875-1720088.png" alt="Java Logo"
+                      class="language__img" >
+                  </figure>
+                  <span class="language__name">Java</span>
+                </div>
+               
+              </div>
+            </div>
+
             <div id="Education" class="tabcontent">
               <div class = "e-tab">
                 <div>
@@ -103,71 +170,8 @@
         </div>
         
         
-            <div id ="Skills_Summary" class ="tabcontent">
-            <div class="language__list">
-              <div class="language">
-                <figure class="language__img--wrapper">
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
-                    alt="Html Logo" class="language__img">
-                </figure>
-                <span class="language__name">HTML</span>
-              </div>
-              <div class="language">
-                <figure class="language__img--wrapper">
-                  <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="CSS Logo"
-                    class="language__img" >
-                </figure>
-                <span class="language__name">CSS</span>
-              </div>
-              <div class="language">
-                <figure class="language__img--wrapper">
-                  <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="JavaScript Logo"
-                    class="language__img" >
-                </figure>
-                <span class="language__name">JavaScript</span>
-              </div>
-              <div class="language">
-                <figure class="language__img--wrapper">
-                  <img src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png"
-                    alt="TypeScript Logo" class="language__img" >
-                </figure>
-                <span class="language__name">TypeScript</span>
-              </div>
-              <div class="language">
-                <figure class="language__img--wrapper">
-                  <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" alt="React Logo"
-                    class="language__img" >
-                </figure>
-                <span class="language__name">React</span>
-              </div>
-              <div class="language">
-                <figure class="language__img--wrapper">
-                  <img src="https://cdn.iconscout.com/icon/free/png-512/free-python-2-226051.png?f=avif&w=512"
-                    alt="Python Logo" class="language__img" >
-                </figure>
-                <span class="language__name">Python</span>
-              </div>
-              
+        
 
-              <div class="language">
-                <figure class="language__img--wrapper">
-                  <img src="https://cdn.iconscout.com/icon/free/png-512/free-c-4-226082.png?f=avif&w=512" alt="C++ Logo"
-                    class="language__img" >
-                </figure>
-                <span class="language__name">C++</span>
-              </div>
-
-              <div class="language">
-                <figure class="language__img--wrapper">
-                  <img src="https://cdn.iconscout.com/icon/free/png-256/java-2038875-1720088.png" alt="Java Logo"
-                    class="language__img" >
-                </figure>
-                <span class="language__name">Java</span>
-              </div>
-             
-            </div>
-          </div>
           <div id ="Honors_Awards" class = "tabcontent">
             <div style ="display:flex; justify-content: center; align-items: center;">
               <div style ="min-width: 50%;max-width: 50%;">
@@ -304,11 +308,13 @@
 
 </footer>
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
-    openTab({ currentTarget: document.querySelector('.tablinks[data-tab="Education"]') }, "Education");
-});
+   
 
     window.onload = function() {
+      const defaultTab = document.getElementById("defaultOpen");
+    openTab({ currentTarget: defaultTab }, "Skills_Summary");
+
+    defaultTab.classList.add("active");
         setTimeout(function() {
             const preloader = document.getElementById('preloader');
             preloader.style.opacity = "0";
@@ -324,29 +330,43 @@
     }
     
     const typedTextH = "Hello, i'm Sathya...";
-    const typedTextP = "I am a highly motivated Software Engineer, dedicated to continuously improving my skills through practical learning and hands-on development work.";
-    const typedTextH5 = "Software Engineer";
-    let indexH = 0;
-    let indexP = 0;
-    let indexH5 = 0;
-    
-    function typeH() {
-        var targetElement = document.querySelector("h1");
-        if (indexH < typedTextH.length) {
-            targetElement.textContent += typedTextH.charAt(indexH);
-            indexH++;
-            setTimeout(typeH, 100);
-        } else if (!targetElement.querySelector(".wave")) {
-            var wavingHand = document.createElement("span");
-            wavingHand.className = "wave fade-in";
-            wavingHand.textContent = '\uD83D\uDC4B';
-            wavingHand.style.opacity = 0;
-            targetElement.appendChild(wavingHand);
-            setTimeout(function() {
-                wavingHand.style.opacity = 1;
-            }, 100);
-        }
+const typedTextP = "I am a highly motivated Software Engineer, dedicated to continuously improving my skills through practical learning and hands-on development work.";
+const typedTextH5 = "Software Engineer";
+let indexH = 0;
+let indexP = 0;
+let indexH5 = 0;
+
+function typeH() {
+    var targetElement = document.querySelector("h1");
+    if (indexH < typedTextH.length) {
+        targetElement.innerHTML = typedTextH.substring(0, indexH) + '<span class="typed-cursor">|</span>';
+        indexH++;
+        setTimeout(typeH, 100);
+    } else if (!targetElement.querySelector(".wave")) {
+        // Remove cursor after finishing typing
+        targetElement.innerHTML = typedTextH;
+        var wavingHand = document.createElement("span");
+        wavingHand.className = "wave fade-in";
+        wavingHand.textContent = '\uD83D\uDC4B';
+        wavingHand.style.opacity = 0;
+        targetElement.appendChild(wavingHand);
+        setTimeout(function() {
+            wavingHand.style.opacity = 1;
+        }, 100);
     }
+}
+
+function typeP() {
+    var targetElement = document.querySelector("p");
+    if (indexP < typedTextP.length) {
+        targetElement.innerHTML = typedTextP.substring(0, indexP) + '<span class="typed-cursor">|</span>';
+        indexP++;
+        setTimeout(typeP, 25);
+    } else {
+        // Remove cursor once done
+        targetElement.innerHTML = typedTextP;
+    }
+}
     
     function typeH5() {
         if (indexH5 < typedTextH5.length) {
@@ -356,13 +376,7 @@
         }
     }
     
-    function typeP() {
-        if (indexP < typedTextP.length) {
-            document.querySelector("p").textContent += typedTextP.charAt(indexP);
-            indexP++;
-            setTimeout(typeP, 25);
-        }
-    }
+  
 
   
     
@@ -397,18 +411,20 @@
 
     
     function openTab(evt, tabName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-    tablinks[i].style.removeProperty("before");
-  }
-  document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += " active";
+    var i, tabcontent, tablinks;
+    
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
 }
     </script>
 
