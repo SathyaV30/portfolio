@@ -237,6 +237,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 1.5625rem 1.0rem;
+    margin-top: 0;
   }
   .language__list {
     display: flex;
@@ -353,9 +354,14 @@ body {
   .e-tab {
     display: flex;
     justify-content: center;
+    margin: 1rem;
   }
+  /* CHANGE: Center the tab content */
   .tabcontent {
-    display: auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
     overflow: visible;
     max-height: 22.1875rem;
     min-height: 22.1875rem;
