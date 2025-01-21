@@ -117,25 +117,15 @@
                     <img src="img&resume/UCSD-Logo.png" alt="UCSD logo" style="max-width: 75%; height: auto;">
                   </a>
                 </div>
-              
                 <div style="max-width: 50%; min-width: 50%;">
-                  <ul>
-                    <li>Bachelor of Science in Computer Engineering</li>
-                    <li>Sept 2021 - Sept 2024</li>
-                    <li>Design and Analysis of Algorithms</li>
-                    <li>Advanced Data Structures (C++)</li>
-                    <li>Software Engineering (Java)</li>
-                    <li>Computer Organization and Systems Programming (C/ARM)</li>
-                    <li>Web Client Languages (HTML/CSS/JS)</li>
-                    <li>Web Mining and Recommender Systems (Python)</li>
-                    <li>Intro to Deep Learning and AI (Python)</li>
-                    <li>Software Tools and Techniques Laboratory (Git)</li>
-                  </ul>
+                  <p class="tab-p">
+                    I earned a Bachelor of Science in Computer Engineering from UC San Diego, graduating in September 2024. Over the course of my studies, I developed a strong foundation in designing algorithms, implementing complex systems, and creating software solutions for real-world challenges. I also gained valuable experience in collaborative development, problem-solving, and applying advanced concepts in artificial intelligence, data analysis, and web development.
+                  </p>
                 </div>
               </div>
             </div>
-
-            <div id="Experience" class="tabcontent" >
+            
+            <div id="Experience" class="tabcontent">
               <div style="display:flex; justify-content: center; align-items: flex-start; margin-top: 1rem;">
                 <!-- Vestr -->
                 <div style="min-width: 40%; max-width: 40%; margin-right: 5%;">
@@ -144,28 +134,12 @@
                       <h2 style="margin: 0;">Vestr</h2>
                     </a>
                     <h3>Software Engineer (Sept 2024 - Present)</h3>
-                    <ul>
-                      <li>
-                        Developed a scalable end-to-end website using React.js, Node.js, Express.js, and MongoDB, 
-                        seamlessly supporting increased traffic loads and reducing infrastructure costs via AWS EC2 and S3.
-                      </li>
-                      <li>
-                        Designed and delivered simulated trading and interactive charts using WebSockets, Chart.js, 
-                        and RESTful APIs, achieving sub-second data updates for 100+ beta testers.
-                      </li>
-                      <li>
-                        Reworked backend data workflows and optimized data aggregation and caching algorithms, reducing 
-                        processing time by 120ms and improving the efficiency of real-time market updates.
-                      </li>
-                      <li>
-                        Implemented and maintained CI/CD pipelines using Jenkins, GitHub Actions, and Docker to automate 
-                        testing, build processes, and containerized deployments, reducing release times by 20% and ensuring 
-                        consistent delivery.
-                      </li>
-                    </ul>
+                    <p class="tab-p">
+                      As a Software Engineer at Vestr, I built and maintained a platform designed to provide real-time updates and ensure seamless scalability. I led the development of core features that improved user engagement, optimized backend workflows to increase data processing efficiency, and designed tools to deliver dynamic, interactive experiences for users. My work also included streamlining deployment processes and improving the reliability and consistency of platform releases.
+                    </p>
                   </div>
                 </div>
-
+            
                 <!-- XCredit -->
                 <div style="min-width: 40%; max-width: 40%;">
                   <div style="display: flex; flex-direction: column; align-items: center;">
@@ -173,25 +147,9 @@
                       <h2 style="margin: 0;">XCredit</h2>
                     </a>
                     <h3>Software Engineer Intern (Jul 2022 - Sept 2022)</h3>
-                    <ul>
-                      <li>
-                        Built a digital wallet and payment gateway features using React Native and Stripe API, enabling 
-                        2500+ secure transactions for a user base with total payment volume of $57k.
-                      </li>
-                      <li>
-                        Optimized a credit scoring system with PostgreSQL and backend services developed in Python 
-                        using Flask for efficient data processing.
-                      </li>
-                      <li>
-                        Collaborated with a cross-functional team of designers, product managers, and engineers to build 
-                        user interfaces from Figma prototypes, ensuring alignment with requirements and incorporating 
-                        usability feedback.
-                      </li>
-                      <li>
-                        Proposed and implemented workflow improvements using Jira for sprint planning and Confluence 
-                        for documentation, increasing team efficiency by 15%.
-                      </li>
-                    </ul>
+                    <p class="tab-p">
+                      During my internship at XCredit, I developed features to enhance financial transactions, enabling secure and efficient payment processing for thousands of transactions. I also worked on improving the accuracy and performance of internal systems and collaborated closely with cross-functional teams to ensure user-centered design. By introducing workflow improvements, I contributed to increased team productivity and better project outcomes.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -208,10 +166,9 @@
             
                 <!-- List Section -->
                 <div style="max-width: 50%; min-width: 50%; display: flex; align-items: center;">
-                  <ul>
-                    <li>Achievement of the Eagle Scout Rank in the Boy Scouts of America program, a distinction earned by only 4% of scouts.</li>
-                    <li>Graduated in just three years, earning Provost Honors four times for achieving a quarterly GPA above 3.5.</li>
-                  </ul>
+                  <p class="tab-p">
+                    I achieved the Eagle Scout Rank in the Boy Scouts of America program, a prestigious distinction earned by only 4% of scouts, demonstrating leadership, dedication, and a commitment to community service. Additionally, I graduated in just three years while consistently earning Provost Honors, recognized four times for maintaining a quarterly GPA above 3.5, reflecting my strong academic performance and discipline.
+                  </p>
                 </div>
               </div>
             </div>
@@ -350,6 +307,8 @@
     </footer>
 
     <script>
+
+
       window.onload = function() {
         const defaultTab = document.getElementById("defaultOpen");
         openTab({ currentTarget: defaultTab }, "Skills_Summary");
@@ -361,16 +320,16 @@
           preloader.style.visibility = "hidden";
           document.body.style.overflow = "auto";
           document.body.style.opacity = "1"; 
-          setTimeout(typeH, 500);
+          setTimeout(typeH, 250);
           setTimeout(typeP, 2500);
-          setTimeout(revealListItems, 7000);
-          setTimeout(revealContainer, 7500);
-          setTimeout(revealOuterP, 7500);
+          setTimeout(revealListItems, 11500);
+          setTimeout(revealContainer, 12000);
+          setTimeout(revealOuterP, 12000);
         }, 1400);
       }
       
       const typedTextH = "Hello, i'm Sathya...";
-      const typedTextP = "I am a highly motivated Software Engineer, dedicated to continuously improving my skills through practical learning and hands-on development work.";
+      const typedTextP = "I am a highly motivated Software Engineer, dedicated to continuously improving my skills through practical learning and hands-on development work. I’m passionate about leveraging technology to revolutionize the future of finance and AI. I specialize in creating impactful solutions through hands-on projects and real-world experience. ";
       const typedTextH5 = "Software Engineer";
       let indexH = 0;
       let indexP = 0;

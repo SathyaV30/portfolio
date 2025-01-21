@@ -462,6 +462,10 @@ footer a {
   text-underline-offset: 3px;
 }
 
+.tab-p {
+  line-height: 2;
+}
+
 @keyframes blink-animation {
     0% {
         opacity: 1;
@@ -481,3 +485,4 @@ footer a {
 html {
   font-size: 1.10vw;
 }
+
